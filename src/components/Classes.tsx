@@ -67,7 +67,7 @@ const Classes = () => {
         <div className="mt-8 relative">
           <div className="flex overflow-hidden space-x-6">
             {visibleClasses.map((item) => (
-              <div key={item.id} className="w-full md:w-1/3 flex-shrink-0 transition-all duration-500 class-card">
+              <div key={item.id} className="w-full md:w-1/3 flex-shrink-0 transition-all duration-500 class-card group">
                 <div className="relative h-80 md:h-96 overflow-hidden">
                   <img 
                     src={item.image} 

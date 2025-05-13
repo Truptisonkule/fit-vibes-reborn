@@ -73,7 +73,7 @@ body {
 }
 
 .class-card {
-  @apply relative overflow-hidden group;
+  @apply relative overflow-hidden;
 }
 
 .class-overlay {
